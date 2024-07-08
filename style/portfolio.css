@@ -1,0 +1,25 @@
+nav{display:flex;}
+.mary{
+    font-size: 45px;
+    font-weight: 800;
+}
+.text-primary{color: #FD6E0A;}
+
+nav > ul{display: flex;
+align-items: center;}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav{text-decoration: none;
+justify-content: space-between;}
+
+.btn{color: white;
+border-radius: 5px; 
+padding: 15px 35px;
+border: 0;
+font-size: 20px;
+font-weight: 700;}
+
