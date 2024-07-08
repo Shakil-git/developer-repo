@@ -24,11 +24,16 @@ border: 0;
 font-size: 20px;
 font-weight: 700;}
 
-.header{background-color: #FFF8F3;}
+.header{background-color: #FFF8F3;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
 .bannar{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 }
 .bannar .image{width: 500px;}
@@ -40,6 +45,28 @@ font-weight: 700;}
 padding: 15px 35px;
 border: 0;
 }
-
+.greatting{font-size: 45px;
+margin: 0;}
+.greatting-to{
+    font-size: 75px;
+    font-weight: 700;
+margin-top: 5px;
+margin-bottom: 20px;
 }
+.bannar-contain{ max-width: 500px;}
+
+.about{padding: 130px;
+border-radius: 10px;
+background-color: #FFF8F3;
+margin: 130px;}
+
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;}
+
+.section-descripsion{
+    text-align: center;
+    color: #757575;
+    font-size: 18px;}
 
