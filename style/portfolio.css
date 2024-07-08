@@ -14,7 +14,8 @@ nav li{
 }
 
 nav{text-decoration: none;
-justify-content: space-between;}
+justify-content: space-between;
+margin: 0 200PX;}
 
 .btn{color: white;
 border-radius: 5px; 
@@ -22,4 +23,23 @@ padding: 15px 35px;
 border: 0;
 font-size: 20px;
 font-weight: 700;}
+
+.header{background-color: #FFF8F3;}
+.bannar{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+
+}
+.bannar .image{width: 500px;}
+.download{background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px; 
+padding: 15px 35px;
+border: 0;
+}
+
+}
 
