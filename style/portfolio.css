@@ -55,6 +55,10 @@ margin-bottom: 20px;
 }
 .bannar-contain{ max-width: 500px;}
 
+main{max-width: 1140px;
+max-height: 550px;
+margin: 0px auto;}
+
 .about{padding: 130px;
 border-radius: 10px;
 background-color: #FFF8F3;
@@ -69,4 +73,10 @@ margin: 130px;}
     text-align: center;
     color: #757575;
     font-size: 18px;}
+
+    .about-info-containar{
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+    }
 
